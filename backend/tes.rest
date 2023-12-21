@@ -1,0 +1,15 @@
+GET http://localhost:3102/data-buku/v1
+###
+POST  http://localhost:3103/tambah-data
+Content-Type: application/json
+{
+     "id": 1,
+    "judul": "indonesi",
+    "kode": 3,
+    "penerbit": "fira",
+    "bahasa": "jerman",
+    "deskripsi": "ea",
+    "isbn_issn": 23,
+    "jumlah": 45,
+    "tersedia": 56
+}
